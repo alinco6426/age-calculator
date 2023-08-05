@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    background-color:hsl(0, 0%, 86%);
+    font-family: 'poppins';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content-body{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px 10px 100px 10px;
+    width: 60%;
+    position: relative;
+    height: auto;
+    padding: 40px ;
+    margin: 50px;
+}
+.info-getters-container{
+    display: flex;
+    width: 100%;
+}
+input{
+    padding: 10px;
+    width: 150px;
+    border: 1.5px solid hsl(0, 0%, 94%);
+    border-radius: 8px;
+    outline: none;
+    font-weight: 700;
+    font-size: 32px;
+    margin-inline: 20px;
+    display: block;
+    font-family: 'poppins';
+    color: hsl(0, 0%, 8%);
+}
+.info-getters-container p{
+    display: block;
+    margin: 15px 25px;
+    text-transform: uppercase;
+    color:hsl(0, 1%, 44%);
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-getters-container .alert {
+    color: hsl(0, 100%, 67%);
+    font-size: 12px;
+    margin: 5px 0;
+    display: block;
+    text-align: center;
+}
+hr{
+    margin: 30px 0;
+    border: 1.2px solid hsl(0, 1%, 44%);
+    width: 90%;
+}
+button{
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(259, 100%, 65%);
+    padding: 10px;
+    position: absolute;
+    right: 10%;
+    top: 33%;
+    cursor: pointer;
+    outline: none;
+}
+h1{
+    font-size: 60px;
+    margin-left: 20px;
+    color: hsl(0, 0%, 8%);
+    font-weight:bolder;
+}
+.age-displayers {
+    color: hsl(259, 100%, 65%);
+    margin-right: 10px;
+}
+.invalid{
+    border: 1.5px solid hsl(0, 100%, 67%);
+}
+
+/* mobile designs  */
+
+@media screen and (max-width:450px) {
+    .wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: none;
+            padding: 20px;
+        }
+    
+        .content-body {
+            width: 100%;
+            position: relative;
+            padding: 40px 10px;
+            margin: 50px;
+        }
+    
+        .info-getters-container {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+    
+        .info-getters-container .info-getters {
+            padding: 10px;
+            width: 100px;
+            font-weight: 600;
+            font-size: 22px;
+            margin-inline: 10px;
+            color: hsl(0, 0%, 8%);
+        }
+    
+        .info-getters-container p {
+            display: block;
+            margin: 8px 14px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    
+        .info-getters-container .alert {
+            font-size: 8px;
+            margin: 5px 0;
+            display: block;
+            text-align: center;
+        }
+        hr {
+            margin: 40px 0;
+            width: 100%;
+        }
+    
+        button {
+            right: 42%;
+            top: 32%;
+            margin-bottom: 100px;
+            padding: 7px;
+            width: 60px;
+        }
+        h1{
+            font-size: 50px;
+            margin-left: 10px;        
+        }
+        .age-displayers{
+            margin: 5px;
+            padding-top: 20px;
+        }
+}

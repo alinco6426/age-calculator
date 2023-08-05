@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">  
+  <link rel="stylesheet" href="style.css">
+  <title>Age calculator app</title>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- main content start  -->
+    <div class="content-body">
+
+      <!-- info-getters container start -->
+
+      <div class="info-getters-container">
+        <!-- each info-getters box  -->
+        <div>
+          <p>Day</p>
+          <input type="text" placeholder="DD" class="info-getters">
+          <small class="alert"></small>
+        </div>
+        <!-- each info-getters box end  -->
+
+        <!-- each info-getters box  -->
+        <div>
+          <p>Month</p>
+          <input type="text" placeholder="MM" class="info-getters">
+          <small class="alert"></small>
+        </div>
+        <!-- each info-getters box end  -->
+
+        <!-- each info-getters box  -->
+        <div>
+          <p>Year</p>
+          <input type="text" placeholder=" YYYY" class="info-getters">
+          <small class="alert"></small>
+          <p id="alert3"></p>
+        </div>
+                <!-- each info-getters box end  -->
+      </div>
+          <!-- info-getters container end -->
+      <hr>
+      
+      <!-- submit button  -->
+      <button type="submit" id="check-age">
+        <img src="icon-arrow.svg" alt="icon-arrow">
+      </button>
+      <!-- submit button ends  -->
+
+       <!-- age-displayers starts here  -->
+      <h1><span class="age-displayers">-- </span> years</h1>
+      <h1><span class="age-displayers"> -- </span> months</h1>
+      <h1><span class="age-displayers"> --</span> days</h1>
+      <!-- age-displayers ends here -->
+
+    </div>
+    <!-- main container ends here  -->
+
+  </div>
+  <!-- wrapper div ends here  -->
+  
+<script src="func.js"></script>
+</body>
+</html>
